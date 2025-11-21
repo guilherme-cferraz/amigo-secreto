@@ -7,9 +7,7 @@ O layout foi pré-fornecido, e toda a lógica do sorteio, adição de nomes e re
 
 ## 🖼️ Preview
 
-![Preview do projeto](./assets/preview-amigo-secreto.png)
-
-*(Ajuste o nome da imagem de acordo com seu repositório.)*
+https://amigo-secreto-murex-iota.vercel.app/
 
 ---
 
