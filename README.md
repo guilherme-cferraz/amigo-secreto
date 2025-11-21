@@ -39,9 +39,9 @@ https://amigo-secreto-murex-iota.vercel.app/
 
 Exemplo de saída:
 
-Maria → João
-João → Pedro
-Pedro → Ana
-Ana → Maria
+Maria → João  
+João → Pedro  
+Pedro → Ana  
+Ana → Maria  
 
 ---

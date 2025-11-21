@@ -7,6 +7,9 @@ function adicionar() {
     if (novoAmigo === "") {
         alert("Por favor, insira o nome de um amigo.");
         return;
+    } else if (amigos.includes(novoAmigo)) {
+        alert("Este amigo já está na lista.");
+        return;
     } else {
         amigos.push(novoAmigo);
         document.getElementById("lista-amigos").innerHTML = amigos.join(", ");
@@ -26,6 +29,10 @@ function reiniciar() {
 function sortear() {
    embaralha(amigos);
    let quantidade = amigos.length;
+   if (quantidade < 4) {
+         alert("É necessário ter pelo menos 4 amigos para realizar o sorteio.");
+         return;
+   }
    document.getElementById("lista-sorteio").innerHTML += amigos[0] + " --> " + amigos[quantidade - 1] + "<br>";
    while (quantidade > 1) {
         document.getElementById("lista-sorteio").innerHTML += amigos[quantidade - 1] + " --> " + amigos[quantidade - 2] + "<br>";
